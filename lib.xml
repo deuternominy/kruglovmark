@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<library>
+  <authors>
+    <item>
+      <id>1</id>
+      <name>Александр Пушкин</name>
+    </item>
+    <item>
+      <id>2</id>
+      <name>Михаил Булгаков</name>
+    </item>
+  </authors>
+  <genres>
+    <item>
+      <id>1</id>
+      <name>Роман</name>
+    </item>
+  </genres>
+  <readers>
+    <item>
+      <id>1</id>
+      <name>Иван Петров</name>
+      <email>ivan@example.org</email>
+    </item>
+  </readers>
+  <books>
+    <item>
+      <id>1</id>
+      <title>Евгений Онегин</title>
+      <author_id>1</author_id>
+      <genre_id>1</genre_id>
+      <copies>3</copies>
+    </item>
+    <item>
+      <id>2</id>
+      <title>Мастер и Маргарита</title>
+      <author_id>2</author_id>
+      <genre_id>1</genre_id>
+      <copies>2</copies>
+    </item>
+  </books>
+  <loans />
+</library>

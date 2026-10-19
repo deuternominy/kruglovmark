@@ -1,0 +1,42 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Александр Пушкин"
+    },
+    {
+      "id": 2,
+      "name": "Михаил Булгаков"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "Роман"
+    }
+  ],
+  "readers": [
+    {
+      "id": 1,
+      "name": "Иван Петров",
+      "email": "ivan@example.org"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Евгений Онегин",
+      "author_id": 1,
+      "genre_id": 1,
+      "copies": 3
+    },
+    {
+      "id": 2,
+      "title": "Мастер и Маргарита",
+      "author_id": 2,
+      "genre_id": 1,
+      "copies": 2
+    }
+  ],
+  "loans": []
+}
